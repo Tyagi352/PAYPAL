@@ -1,0 +1,143 @@
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #dbdfe2, #00b9f1);
+  }
+  
+  .login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color:#dbdfe2;
+    box-shadow: 0 4px 15px rgba(19, 133, 118, 0.767);
+    border-radius: 10px;
+    overflow: hidden;
+    
+    
+  }
+
+  
+  .login-box {
+    padding: 40px 30px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    font-weight: solid black bold;
+    
+  }
+  
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #0070ba;
+  }
+  input[type="number"],
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #0070ba;
+    background-color: #fff;
+  }
+  
+  .remember-me {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  #llgoin{
+    padding-top: 30px;
+
+  }
+  #llgoin a{
+    padding: 5px 10px;
+
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #0070ba;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #005c9e;
+  }
+  
+  .social-login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social-login a {
+    width: 48%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3b5998; /* Facebook blue */
+    padding: 10px 0;
+    border-radius: 50px;
+    font-size: 14px;
+    text-align: center;
+    transition: background 0.3s ease;
+  }
+  
+  .social-login a.google {
+    background-color: #db4437; /* Google red */
+  }
+  
+  .social-login a:hover {
+    opacity: 0.85;
+  }
+  
+  .forgot-password {
+    margin-top: 15px;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #0070ba;
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
